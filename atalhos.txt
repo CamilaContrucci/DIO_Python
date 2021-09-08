@@ -1,0 +1,19 @@
+Para não esquecer:
+Ctrl + Shift + L = serve como tab em todos os elementos do documento
+Alt + Setas = move a linha para cima / baixo
+Shift + Alt + Setas = copia a linha para cima / baixo
+F12 = Vai para a definição
+Ctrl + K, Z = Abre o código na janela inteira, "zen mode".
+Alt + Ctrl + K = cria uma bookmark onde está trabalhando
+Ctrl + S = salva o arquivo
+Ctrl + Alt + F5 = start debbuging
+Alt + Shift = troca o idioma do teclado
+
+No HTML:
+Se usar html>body>div>h1 + enter, ele vai gerar o código html
+
+No CMD:
+cd ../ = move para uma pasta acima
+cd nomedapasta = abre uma pasta
+dir = lista todos os arquivos da pasta
+cls = limpa o prompt de comando
