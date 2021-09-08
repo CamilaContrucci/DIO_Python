@@ -52,9 +52,8 @@ print(lista_animal)
 lista_animal.remove('elefante')
 print(lista_animal)
 
-
 # Multiplicar lista
 nova_lista_animal = lista_animal * 3
 print(nova_lista_animal)
 
-print
+// TODO: Parei a aula 5 em 11m10s
