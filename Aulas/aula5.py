@@ -1,5 +1,5 @@
 lista = [1, 3, 5, 7]
-lista_animal = ['cachorro', 'gato', 'elefante']
+lista_animal = ['cachorro', 'gato', 'elefante', 'lobo', 'arara']
 print(lista)
 
 # Imprime a classe
@@ -56,4 +56,30 @@ print(lista_animal)
 nova_lista_animal = lista_animal * 3
 print(nova_lista_animal)
 
-// TODO: Parei a aula 5 em 11m10s
+# Ordenar as listas (do menor para o maior, de A - Z)
+lista.sort()
+lista_animal.sort()
+print(lista)
+print(lista_animal)
+
+#Ordenar as listas (do maior para o menor, de Z - A)
+lista.reverse()
+lista_animal.reverse()
+print(lista)
+print(lista_animal)
+
+# Tupla é diferente de lista. Ela é imutável.
+tupla = (1, 10, 12, 14)
+print(tupla[2])
+
+# Len diz quantos elementos tem na tupla ou na lista
+print(len(tupla))
+print(len(lista_animal)) 
+
+tupla_animal = tuple(lista_animal) # converte a lista para tupla
+print(type(tupla_animal)) # imprime a definição da classe
+print(tupla_animal)
+
+lista_numerica = list(tupla) #converte tupla para lista
+print(type(lista_numerica))
+print(lista_numerica)
