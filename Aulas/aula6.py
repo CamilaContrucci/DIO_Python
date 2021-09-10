@@ -21,3 +21,20 @@ print('Diferença entre 2 e 1: {}' . format(conjunto_diferenca2))
 
 conjunto_diff_simetrica = conjunto1.symmetric_difference(conjunto2)
 print('Diferença simétrica:{}' . format(conjunto_diff_simetrica))
+
+# Vê se um conjunto é um conjunto é subconjunto / superconjunto de outro.
+conjunto_a = {1, 2, 3}
+conjunto_b = {1, 2, 3, 4, 5}
+
+conjunto_subset = conjunto_a.issubset(conjunto_b) 
+print('A é subconjunto de B: {}' .format(conjunto_subset)) # A pertence a B (todos elementos de A também estão em B)
+
+conjunto_subset = conjunto_b.issubset(conjunto_a)
+print('B é subconjunto de A: {}' .format(conjunto_subset)) # B não pertence a A (tem mais elementos que A)
+
+conjunto_subset = conjunto_a.issuperset(conjunto_b)
+print('A é superconjunto de B: {}' .format(conjunto_subset)) # A não contém B 
+
+conjunto_subset = conjunto_b.issuperset(conjunto_a)
+print('B é superconjunto de B: {}' .format(conjunto_subset)) # B contém A
+

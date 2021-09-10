@@ -8,6 +8,8 @@ Alt + Ctrl + K = cria uma bookmark onde está trabalhando
 Ctrl + S = salva o arquivo
 Ctrl + Alt + F5 = start debbuging
 Alt + Shift = troca o idioma do teclado
+Alt = multiplos cursores
+Win + Setas = divide a tela
 
 No HTML:
 Se usar html>body>div>h1 + enter, ele vai gerar o código html
