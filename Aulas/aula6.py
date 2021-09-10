@@ -38,3 +38,11 @@ print('A é superconjunto de B: {}' .format(conjunto_subset)) # A não contém B
 conjunto_subset = conjunto_b.issuperset(conjunto_a)
 print('B é superconjunto de B: {}' .format(conjunto_subset)) # B contém A
 
+# Converter lista - conjunto; conjunto - lista. 
+lista = {'cachorro', 'cachorro', 'gato', 'gato', 'elefante'}
+print(lista)
+conjunto_animais = set(lista) # converter lista para conjunto, tira a duplicidade da lista
+print(conjunto_animais)
+
+lista_animais = list(conjunto_animais) # converte  conjunto para lista
+print(lista_animais)
