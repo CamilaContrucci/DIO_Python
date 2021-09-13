@@ -1,9 +1,9 @@
-# conjunto = {1, 2, 3, 4}
-# print(type(conjunto)) # imprime a definição da classe (set = conjunto)
-# conjunto.add(5) # adiciona um elemento
-# print(conjunto)
-# conjunto.discard(2) # remove um elemento
-# print(conjunto)
+conjunto = {1, 2, 3, 4}
+print(type(conjunto)) # imprime a definição da classe (set = conjunto)
+conjunto.add(5) # adiciona um elemento
+print(conjunto)
+conjunto.discard(2) # remove um elemento
+print(conjunto)
 
 conjunto1 = {1, 2, 3, 4, 5}
 conjunto2 = {5, 6, 7, 8, 9}
