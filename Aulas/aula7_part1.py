@@ -11,6 +11,7 @@ def subtracao(a, b):
 print(soma(5, 3))
 
 # Ensinando a fazer criando a classe
+
 class Calculadora:
     def __init__(self, num1, num2): # tem dois underline antes e dois depois essa merda aqui
         self.valor_a = num1
@@ -28,15 +29,15 @@ class Calculadora:
     def divisao(self):
         return self.valor_a / self.valor_b 
 
-
-calculadora = Calculadora(10, 2) 
+if __name__ == '__main__':
+    calculadora = Calculadora(10, 2) 
 #chamei a classe da calculadora
 
-print(calculadora.valor_a)
-print(calculadora.soma())
-print(calculadora.subtracao())
-print(calculadora.multiplicacao())
-print(calculadora.divisao())
+    print(calculadora.valor_a)
+    print(calculadora.soma())
+    print(calculadora.subtracao())
+    print(calculadora.multiplicacao())
+    print(calculadora.divisao())
 
 # Fazer a mesma coisa sem definir os num
 class Calculadora2:
