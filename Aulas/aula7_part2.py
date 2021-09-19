@@ -21,21 +21,20 @@ class Televisao:
             self. canal -= 1
     
     
+print (__name__)
+if __name__ == '__main__':
+    televisao = Televisao()
+    print('Televsão está ligada: {}'. format(televisao.ligada))
+    televisao.power()
+    print('Televsão está ligada: {}'. format(televisao.ligada))
+    televisao.power()
+    print('Televsão está ligada: {}'. format(televisao.ligada))
 
-televisao = Televisao()
-print('Televsão está ligada: {}'. format(televisao.ligada))
-televisao.power()
-print('Televsão está ligada: {}'. format(televisao.ligada))
-televisao.power()
-print('Televsão está ligada: {}'. format(televisao.ligada))
-
-print('Canal: {}' .format(televisao.canal))
-televisao.power()
-print('Televsão está ligada: {}'. format(televisao.ligada))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('Canal: {}' .format(televisao.canal))
-televisao.diminui_canal()
-print('Canal: {}' .format(televisao.canal))
-
-
+    print('Canal: {}' .format(televisao.canal))
+    televisao.power()
+    print('Televsão está ligada: {}'. format(televisao.ligada))
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print('Canal: {}' .format(televisao.canal))
+    televisao.diminui_canal()
+    print('Canal: {}' .format(televisao.canal))
