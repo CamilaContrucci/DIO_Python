@@ -27,5 +27,5 @@ def ler_arquivo(nome_arquivo):
 if __name__ == '__main__':
     # escrever_arquivo('Primeira linha.\n')
     # atualizar_texto('Terceira linha \n')
-    ler_arquivo('teste.txt') # não sei ler arquivo em outro diretório
+    ler_arquivo('teste.txt') # para ler em outro diretório, tem que usar a navegação de pastas no terminal como se fosse pelo cmd
     
